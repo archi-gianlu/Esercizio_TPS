@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titolo {
+    background-color: #c0392b;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.Pizze, .Bevande, .Dolci {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Pizze h1, .Bevande h1, .Dolci h1 {
+    color: #c0392b;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.pizza-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.piccia {
+    width: 120px;
+    height: auto;
+}
+
+.acqua-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.acqua {
+    width: 120px;
+    height: auto;
+}
+
+.tirami-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.tirami {
+    width: 120px;
+    height: auto;
+}
